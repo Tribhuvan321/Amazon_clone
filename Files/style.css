@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* box 1 */
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    width: 114px;
+    height: 60px;
+    background-image: url("image-removebg-preview (14).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    display: flex;
+}
+.nav-logo a{
+    display: flex;
+    align-items: center;
+}
+
+/* box 2 */
+.nav-loc{
+    margin-top: 10px;
+}
+.nav-loc p{
+    display: inline;
+    font-size: 0.85rem;
+    margin: 0px;
+    padding: 0%;
+    color: white;
+}
+.nav-loc pre{
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 900px;
+    height: 40px;
+    margin: 8px 4px 10px 4px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #e6e6e6;
+    width: 51px;
+    padding-left: 5px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-radius: 5px;
+    color: #0f1111;
+}
+
+/* box 4 */
+.nav-country{
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-image{
+    position:relative;
+    width: 23px;
+    height: 23px;
+}
+
+.country-select{
+    background-color: #0f1111;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 0.85rem;
+}
+
+/* box 5 */
+.nav-signin{
+    margin-top: 10px;
+}
+.nav-first{
+    color: white;
+    font-size: 0.75rem;
+}
+.nav-second{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* box 6 */
+.nav-cart{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cart i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav-cart p{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Menu Section */
+.menu-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    font-size: 0.9rem;
+}
+.sec-menu{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.sec-links{
+    width: 95%;
+}
+.sec-links a, a:visited{
+    margin: 5px 0px 6px;
+    padding: 8px 9px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Main Section */
+.main-section{
+    background-image: url("big\ img.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-warning{
+    background-color: #f5f6f6;
+    height: 40px;
+    color: #0f1111;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 310px;
+    width: 97%;
+}
+.main-warning a{
+    color: #2162a1;
+    text-decoration: none;
+}
+
+/* Bottom color */
+.bottom-color{
+    background-color: #badfb6;
+    width: 100%;
+    height: 600px;
+
+}
+
+/* Bottom Boxes*/
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative;
+    bottom: 890px;    
+}
+.box{
+    width: 350px;
+    height: 390px;
+    background-color: white;
+}
+.box p{
+    font-size: 21px;
+    font-weight: bolder;
+    color: #0f1111;
+}
+.box-inner{
+    margin: 20px;
+}
+.box-inner p{
+    margin-bottom: 10px;
+}
+.inner-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-images-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+.image{
+    width: 140px;
+    height: 100px;
+    background-color: pink;
+}
+.image-second{
+    width: 310px;
+    height: 260px;
+    background-color: pink;
+}
+#headphones{
+    background-image: url("headphones.jpg");
+    background-size: cover;
+}
+#keyboard{
+    background-image: url("keyboard\ img.jpg");
+    background-size: cover;
+}
+#computer-mice{
+    background-image: url("mouse\ img.jpg");
+    background-size: cover;
+}
+#gaming-chair{
+    background-image: url("chair\ img.jpg");
+    background-size: cover;
+}
+#cleaning-tools{
+    background-image: url("CleaningTools\ img.jpg");
+    background-size: cover;
+}
+#home-storage{
+    background-image: url("HomeStorage\ img.jpg");
+    background-size: cover;
+}
+#home-decor{
+    background-image: url("HomeDecor\ img.jpg");
+    background-size: cover;
+}
+#bedding{
+    background-image: url("Bedding\ img.jpg");
+    background-size: cover;
+}
+#gaming-pc{
+    background-image: url("Fuji_Gaming_store_Dashboard_card\ img.jpg");
+    background-size: cover;
+}
+#jeans{
+    background-image: url("Jeans\ img.jpg");
+    background-size: cover;
+}
+#tops{
+    background-image: url("TOPS\ img.jpg");
+    background-size: cover;
+}
+#dresses{
+    background-image: url("DRESSES\ img.jpg");
+    background-size: cover;
+}
+#shoes{
+    background-image: url("SHOES.jpg");
+    background-size: cover;
+}
+.inner-text{
+    display: flex;
+    font-size: 0.75rem;
+}
+.inner-text pre{
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+.inner-text-second pre{
+    margin-right: 90px;
+    margin-bottom: 40px;
+}
+.see-more a{
+    color: #2162a1;
+    text-decoration: none;
+    font-weight: 540;
+}
+.border:hover{
+    border: white solid 1px;
+}
+.search-border:active{
+    border: #febd68 solid 3px;
+}
+/*
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative;
+    bottom: 890px;    
+}
+.box{
+    width: 350px;
+    height: 390px;
+    background-color: white;
+}
+.box p{
+    font-size: 21px;
+    font-weight: bolder;
+    color: #0f1111;
+}
+.box-inner{
+    margin: 20px;
+}
+.inner-images{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.inner-text{
+    display: flex;
+    font-size: 0.75rem;
+}
+.inner-text pre{
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+.inner-text-second pre{
+    margin-right: 90px;
+    margin-bottom: 40px;
+}
+.see-more a{
+    color: #2162a1;
+    text-decoration: none;
+} */
